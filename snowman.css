@@ -111,13 +111,26 @@ body, .base {
   width: 200px;
   height: 200px;
 }
+.gradient-swatch {
+  width: 200px;
+  height: 300px;
+}
 .color-swatch-header {
   width: 100%;
   height: 70%;
 }
+.gradient-swatch-header {
+  width: 100%;
+  height: 50%;
+}
 .color-swatch-body {
   width: 100%;
   height: 30%;
+  background: #FBFBFB;
+}
+.gradient-swatch-body {
+  width: 100%;
+  height: 50%;
   background: #FBFBFB;
 }
 .color-background {
@@ -134,4 +147,8 @@ body, .base {
 }
 .color-name p, .color-hex p, .color-rgb p {
   font-size: 12px;
+}
+.gradient-background {
+  background: rgb(24,53,229);
+background: linear-gradient(90deg, rgba(24,53,229,1) 0%, rgba(104,212,189,1) 100%);
 }
