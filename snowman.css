@@ -1,6 +1,7 @@
 * {
   margin:0;
   padding:0;
+  list-style: none;
 }
 /* Typography */
 body, .base {
@@ -151,4 +152,62 @@ body, .base {
 .gradient-background {
   background: rgb(24,53,229);
 background: linear-gradient(90deg, rgba(24,53,229,1) 0%, rgba(104,212,189,1) 100%);
+}
+
+/* Iconography */
+.icon-size-guide {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.icon-size-guide li figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon-size-guide li figure figurecaption {
+  color: #57595C;
+  margin-top: 5px;
+}
+.icon-size-guide li figure figurecaption span {
+  display: block;
+  padding: 3px 5px;
+  margin-right: 10px;
+  border: 1px solid #ABBACD;
+  background: #DEE4EC;
+  border-radius: 2px;
+}
+.icon-guides {
+  width: 200px;
+  display: block;
+}
+.icon-set {
+  width: 800px;
+}
+.icon-xs {
+  width: 16px;
+}
+.icon-s {
+  width: 20px;
+}
+.icon-r {
+  width: 24px;
+}
+.icon-l {
+  width: 32px;
+}
+.icon-xl {
+  width: 48px;
+}
+
+/* Badge */
+.badge {
+  display: inline-block;
+  color: #fff;
+  background: #C72844;
+  padding: 1px 8px;
+  border-radius: 10px;
 }
